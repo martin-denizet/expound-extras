@@ -1,0 +1,68 @@
+/*
+Theme Name: Expound Extras
+Theme URI: https://github.com/martin-denizet/expound-extras
+Author: Martin DENIZET
+Author URI: http://martin-denizet.com
+Description: A Child theme of the excellent Expound theme by Konstantin Kovshenin: http://kovshenin.com. Adds Header and Footer widgets.
+Template: expound
+Version: 1.9
+License: GNU General Public License
+License URI: LICENSE.txt
+Tags: black, blue, white, light, one-column, two-columns, right-sidebar, editor-style, flexible-width, custom-header, flexible-header, custom-background, featured-images, custom-menu, post-formats, sticky-post, threaded-comments, translation-ready, full-width-template, buddypress
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+Expound is based on Underscores http://underscores.me/, (C) 2012-2013 Automattic, Inc.
+*/
+
+@import url("../expound/style.css");
+
+/* =Theme customization starts here
+-------------------------------------------------------------- */
+header#masthead #header-sidebar {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+
+    -moz-box-align: center;
+    -webkit-box-align: center;
+    box-align: center;
+    -moz-box-pack: center;
+    -webkit-box-pack: center;
+    box-pack: center;
+    -ms-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box; /* Center align layout. Based on old CSS3 spec, so update when new spec is available */ 
+    display: -ms-flexbox;
+    display: -moz-box;
+    display: -webkit-box;
+    display: box;
+    overflow: hidden;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    -ms-flex-pack: center;
+    -ms-flex-align: center;
+}
+
+header#masthead #header-sidebar aside.widget {
+    position: relative;
+
+    float: right;
+    margin-bottom: 0;
+    margin-right: 20px
+}
+
+header#masthead #header-sidebar .widget-title {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+header#masthead #header-sidebar ul {
+    list-style: none;
+}
+header#masthead #header-sidebar ul li {
+    display: inline ;
+}

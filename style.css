@@ -66,3 +66,12 @@ header#masthead #header-sidebar ul {
 header#masthead #header-sidebar ul li {
     display: inline ;
 }
+
+#pre-footer{
+    padding: 40px;
+    overflow: hidden;
+}
+#pre-footer .pre-footer-col{
+    float: left;
+    width: 23%;
+}
